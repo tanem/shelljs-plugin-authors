@@ -1,0 +1,26 @@
+{
+  "name": "shelljs-plugin-authors",
+  "version": "0.0.1",
+  "description": "A ShellJS plugin for generating a list of authors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shelljs",
+    "plugin",
+    "authors"
+  ],
+  "author": "Tane Morgan (https://github.com/tanem)",
+  "license": "MIT",
+  "bugs": "https://github.com/tanem/shelljs-plugin-authors/issues",
+  "homepage": "https://github.com/tanem/shelljs-plugin-authors",
+  "repository": "github:tanem/shelljs-plugin-authors",
+  "devDependencies": {
+    "prettier": "^1.14.2",
+    "shelljs": "^0.8.2"
+  },
+  "peerDependencies": {
+    "shelljs": "^0.8.2"
+  }
+}
