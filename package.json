@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A ShellJS plugin for generating a list of authors.",
   "main": "src/index.js",
+  "bin": "bin/shelljs-authors",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,7 @@
     "shelljs": "^0.8.2"
   },
   "files": [
+    "bin",
     "src"
   ]
 }
