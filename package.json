@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "bin": "bin/shelljs-authors",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "shelljs",
