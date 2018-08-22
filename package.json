@@ -5,7 +5,11 @@
   "main": "src/index.js",
   "bin": "bin/shelljs-authors",
   "scripts": {
-    "test": "jest --coverage"
+    "authors": "./bin/shelljs-authors > AUTHORS",
+    "test": "jest --coverage",
+    "release": "npm version -m 'Release v%s'",
+    "postversion": "git push && git push --tags && npm publish",
+    "version": "npm t && npm run authors && git add ."
   },
   "keywords": [
     "shelljs",
