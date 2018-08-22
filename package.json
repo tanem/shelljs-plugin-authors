@@ -1,14 +1,15 @@
 {
   "name": "shelljs-plugin-authors",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A ShellJS plugin for generating a list of authors.",
   "main": "src/index.js",
   "bin": "bin/shelljs-authors",
   "scripts": {
     "authors": "./bin/shelljs-authors > AUTHORS",
-    "test": "jest --coverage",
-    "release": "npm version -m 'Release v%s'",
+    "example": "node ./example",
     "postversion": "git push && git push --tags && npm publish",
+    "release": "npm version -m 'Release v%s'",
+    "test": "jest --coverage",
     "version": "npm t && npm run authors && git add ."
   },
   "keywords": [
