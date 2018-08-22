@@ -5,7 +5,7 @@ require('../src')
 
 faker.seed(123)
 
-// Provide a fake git shortlog response.
+// Provide a fake `git shortlog` response.
 shell.exec = jest.fn().mockReturnValue(
   shell.ShellString(
     new Array(5).fill().map(() => {
@@ -18,11 +18,11 @@ shell.exec = jest.fn().mockReturnValue(
   )
 )
 
-test('gets added to the shelljs instance', () => {
+it('gets added to the shelljs instance', () => {
   expect(shell.authors).toBeInstanceOf(Function)
 })
 
-test('does not override other commands or methods', () => {
+it('does not override other commands or methods', () => {
   expect(shell.cp).toBeInstanceOf(Function)
   expect(shell.mv).toBeInstanceOf(Function)
   expect(shell.ls()).toHaveProperty('toEnd')
@@ -30,7 +30,7 @@ test('does not override other commands or methods', () => {
   expect(shell.ls()).toHaveProperty('sed')
 })
 
-test('creates the correct authors string', () => {
+it('creates the correct authors string', () => {
   expect(shell.authors().stdout).toMatchInlineSnapshot(`
 "Mervin Graham <Mervin69@yahoo.com>
 Miller Reichel <Miller_Reichel@yahoo.com>
