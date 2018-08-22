@@ -1,6 +1,6 @@
 {
   "name": "shelljs-plugin-authors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ShellJS plugin for generating a list of authors.",
   "main": "src/index.js",
   "bin": "bin/shelljs-authors",
