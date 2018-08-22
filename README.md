@@ -6,21 +6,27 @@
 [![npm downloads](https://img.shields.io/npm/dm/shelljs-plugin-authors.svg?style=flat-square)](https://www.npmjs.com/package/shelljs-plugin-authors)
 [![shelljs-plugin](https://img.shields.io/badge/shelljs-plugin-brightgreen.svg?style=flat-square)](https://github.com/shelljs/shelljs/wiki/Using-ShellJS-Plugins)
 
-> A [ShellJS](https://github.com/shelljs/shelljs) plugin for generating a list of authors.
+> A [ShellJS](https://github.com/shelljs/shelljs) plugin for generating a list of authors via `git shortlog`.
 
 ## Usage
+
+### Plugin
+
+```
+$ npm i -D shelljs shelljs-plugin-authors
+```
 
 ```js
 const shell = require('shelljs')
 require('shelljs-plugin-authors')
-const authors = shell.authors()
-shell.echo(authors.stdout)
+shell.authors().to('AUTHORS')
 ```
 
-## Installation
+### CLI
 
 ```
-$ npm install shelljs shelljs-plugin-authors --save
+$ npm i -g shelljs shelljs-plugin-authors
+$ shelljs-authors > AUTHORS
 ```
 
 ## License

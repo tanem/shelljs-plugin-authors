@@ -6,9 +6,10 @@
   "bin": "bin/shelljs-authors",
   "scripts": {
     "authors": "./bin/shelljs-authors > AUTHORS",
-    "test": "jest --coverage",
-    "release": "npm version -m 'Release v%s'",
+    "example": "node ./example",
     "postversion": "git push && git push --tags && npm publish",
+    "release": "npm version -m 'Release v%s'",
+    "test": "jest --coverage",
     "version": "npm t && npm run authors && git add ."
   },
   "keywords": [
