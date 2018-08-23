@@ -1,22 +1,19 @@
-const faker = require('faker')
 const shell = require('shelljs')
 
 require('../src')
 
-faker.seed(123)
-
-// Provide a fake `git shortlog` response.
-shell.exec = jest.fn().mockReturnValue(
-  shell.ShellString(
-    new Array(5).fill().map(() => {
-      const count = faker.random.number(100)
-      const firstName = faker.name.firstName()
-      const lastName = faker.name.lastName()
-      const email = faker.internet.email(firstName, lastName)
-      return `  ${count}\t${firstName} ${lastName} <${email}>`
-    })
+// Provide a fake `git shortlog -se` response.
+shell.exec = jest
+  .fn()
+  .mockReturnValue(
+    shell.ShellString(
+      '  24\tAndrew Powlowski <Andrew_Powlowski@yahoo.com>\n' +
+        '  39\tGregorio Heaney <Gregorio.Heaney43@yahoo.com>\n' +
+        '  99\tHallie Paucek <Hallie.Paucek@yahoo.com>\n' +
+        '  70\tMervin Graham <Mervin69@yahoo.com>\n' +
+        '  55\tMiller Reichel <Miller_Reichel@yahoo.com>\n'
+    )
   )
-)
 
 it('gets added to the shelljs instance', () => {
   expect(shell.authors).toBeInstanceOf(Function)
@@ -32,10 +29,10 @@ it('does not override other commands or methods', () => {
 
 it('creates the correct authors string', () => {
   expect(shell.authors().stdout).toMatchInlineSnapshot(`
-"Mervin Graham <Mervin69@yahoo.com>
-Miller Reichel <Miller_Reichel@yahoo.com>
-Hallie Paucek <Hallie.Paucek@yahoo.com>
+"Andrew Powlowski <Andrew_Powlowski@yahoo.com>
 Gregorio Heaney <Gregorio.Heaney43@yahoo.com>
-Andrew Powlowski <Andrew_Powlowski@yahoo.com>"
+Hallie Paucek <Hallie.Paucek@yahoo.com>
+Mervin Graham <Mervin69@yahoo.com>
+Miller Reichel <Miller_Reichel@yahoo.com>"
 `)
 })
