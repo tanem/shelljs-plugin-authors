@@ -23,7 +23,7 @@ require('shelljs-plugin-authors')
 // Default sort is author alphabetic.
 shell.authors().to('AUTHORS')
 
-// You can also sort the list by number of commits per author.
+// You can also sort by number of commits per author.
 shell.authors('-n').to('AUTHORS')
 ```
 
