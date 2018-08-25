@@ -15,7 +15,7 @@ it('does not override other commands or methods', () => {
   expect(shell.ls()).toHaveProperty('sed')
 })
 
-it('creates the correct default authors string', () => {
+it('creates an author alphabetically sorted list by default', () => {
   const orglExec = shell.exec
   const execStub = sinon.stub()
   execStub
@@ -42,7 +42,7 @@ Miller Reichel <Miller_Reichel@yahoo.com>"
   shell.exec = orglExec
 })
 
-it('creates the correct numbered authors string', () => {
+it('creates a number of commits per author sorted list when the numbered option is passed', () => {
   const orglExec = shell.exec
   const execStub = sinon.stub()
   execStub
