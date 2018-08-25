@@ -19,7 +19,12 @@ $ npm i -D shelljs shelljs-plugin-authors
 ```js
 const shell = require('shelljs')
 require('shelljs-plugin-authors')
+
+// Default sort is author alphabetic.
 shell.authors().to('AUTHORS')
+
+// You can also sort by number of commits per author.
+shell.authors('-n').to('AUTHORS')
 ```
 
 ### CLI
@@ -27,6 +32,7 @@ shell.authors().to('AUTHORS')
 ```
 $ npm i -g shelljs shelljs-plugin-authors
 $ shelljs-authors > AUTHORS
+$ shelljs-authors -n > AUTHORS
 ```
 
 ## License

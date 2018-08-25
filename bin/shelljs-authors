@@ -1,6 +1,15 @@
 #!/usr/bin/env node
 
+const program = require('commander')
 const shell = require('shelljs')
+const version = require('../package.json').version
+
 require('../src')
-const authors = shell.authors()
+
+program
+  .version(version)
+  .option('-n, --numbered', 'Sort by number of commits per author')
+  .parse(process.argv)
+
+const authors = shell.authors(`${program.numbered ? '-n' : ''}`)
 shell.echo(authors.stdout)

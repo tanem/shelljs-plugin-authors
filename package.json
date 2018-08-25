@@ -26,7 +26,8 @@
     "codecov": "^3.0.4",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.2",
+    "sinon": "^6.1.5"
   },
   "peerDependencies": {
     "shelljs": "^0.8.2"
@@ -34,5 +35,8 @@
   "files": [
     "bin",
     "src"
-  ]
+  ],
+  "dependencies": {
+    "commander": "^2.17.1"
+  }
 }
