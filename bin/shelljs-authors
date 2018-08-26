@@ -8,8 +8,18 @@ require('../src')
 
 program
   .version(version)
+  .description('Generate a nicely formatted list of authors')
   .option('-n, --numbered', 'Sort by number of commits per author')
-  .parse(process.argv)
+
+program.on('--help', function() {
+  console.log(`  Examples:
+
+    $ shelljs-authors
+    $ shelljs-authors -n
+`)
+})
+
+program.parse(process.argv)
 
 const authors = shell.authors(`${program.numbered ? '-n' : ''}`)
 shell.echo(authors.stdout)
