@@ -13,9 +13,13 @@
     "version": "npm t && npm run authors && git add ."
   },
   "keywords": [
-    "shelljs",
+    "authors",
+    "git",
     "plugin",
-    "authors"
+    "script",
+    "shelljs",
+    "shelljs-plugin",
+    "shortlog"
   ],
   "author": "Tane Morgan (https://github.com/tanem)",
   "license": "MIT",
