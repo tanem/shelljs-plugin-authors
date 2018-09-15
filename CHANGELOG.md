@@ -1,6 +1,13 @@
 # Changelog
 
-## [v2.0.4](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.4) (2018-09-12)
+## [v2.0.5](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.5) (2018-09-15)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.4...v2.0.5)
+
+**Merged pull requests:**
+
+- Update deps [\#17](https://github.com/tanem/shelljs-plugin-authors/pull/17) ([tanem](https://github.com/tanem))
+
+## [v2.0.4](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.4) (2018-09-11)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.3...v2.0.4)
 
 **Merged pull requests:**
