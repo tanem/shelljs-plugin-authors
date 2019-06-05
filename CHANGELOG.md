@@ -1,6 +1,13 @@
 # Changelog
 
-## [v2.0.7](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.7) (2019-06-06)
+## [v2.0.8](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.8) (2019-06-06)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.7...v2.0.8)
+
+**Merged pull requests:**
+
+- Pin dependencies [\#21](https://github.com/tanem/shelljs-plugin-authors/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v2.0.7](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.7) (2019-06-05)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.6...v2.0.7)
 
 **Merged pull requests:**
