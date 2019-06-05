@@ -30,11 +30,11 @@
   "homepage": "https://github.com/tanem/shelljs-plugin-authors",
   "repository": "github:tanem/shelljs-plugin-authors",
   "devDependencies": {
-    "codecov": "^3.5.0",
-    "jest": "^24.8.0",
-    "prettier": "^1.17.1",
-    "shelljs": "^0.8.3",
-    "sinon": "^7.3.2"
+    "codecov": "3.5.0",
+    "jest": "24.8.0",
+    "prettier": "1.17.1",
+    "shelljs": "0.8.3",
+    "sinon": "7.3.2"
   },
   "peerDependencies": {
     "shelljs": "^0.8.3"
