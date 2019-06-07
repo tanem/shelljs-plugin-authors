@@ -1,6 +1,13 @@
 # Changelog
 
-## [v2.0.8](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.8) (2019-06-06)
+## [v2.0.9](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.9) (2019-06-08)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.8...v2.0.9)
+
+**Merged pull requests:**
+
+- Update dependency prettier to v1.18.2 [\#22](https://github.com/tanem/shelljs-plugin-authors/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v2.0.8](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.8) (2019-06-05)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.7...v2.0.8)
 
 **Merged pull requests:**
