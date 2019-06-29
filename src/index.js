@@ -1,9 +1,11 @@
-const shell = require('shelljs')
+const shell = require('shelljs-exec-proxy')
 const plugin = require('shelljs/plugin')
 
+shell.config.silent = true
+
 const authors = ({ numbered }) =>
-  shell
-    .exec(`git shortlog HEAD -se${numbered ? 'n' : ''}`, { silent: true })
+  shell.git
+    .shortlog('HEAD', `-se${numbered ? 'n' : ''}`)
     .sed(/ *\d+\t/g, '')
     .stdout.trim()
 

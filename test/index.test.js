@@ -1,7 +1,36 @@
 const shell = require('shelljs')
-const sinon = require('sinon')
 
 require('../src')
+
+const commitData = new Map([
+  [1, 'Andrew Powlowski <Andrew_Powlowski@yahoo.com>'],
+  [4, 'Gregorio Heaney <Gregorio.Heaney43@yahoo.com>'],
+  [7, 'Hallie Paucek <Hallie.Paucek@yahoo.com>'],
+  [11, 'Mervin Graham <Mervin69@yahoo.com>'],
+  [15, 'Miller Reichel <Miller_Reichel@yahoo.com>']
+])
+
+beforeAll(() => {
+  shell.config.resetForTesting()
+  shell.cd(__dirname)
+  shell.mkdir('tmp')
+  shell.cd('tmp')
+  shell.exec('git init')
+  shell.touch('file.js')
+  for (let [count, author] of commitData) {
+    while (count--) {
+      new shell.ShellString('stuff').toEnd('file.js')
+      shell.exec(
+        `git add --all && git commit -m "Message" --author "${author}"`
+      )
+    }
+  }
+})
+
+afterAll(() => {
+  shell.cd(__dirname)
+  shell.rm('-rf', 'tmp')
+})
 
 it('gets added to the shelljs instance', () => {
   expect(shell.authors).toBeInstanceOf(Function)
@@ -16,55 +45,21 @@ it('does not override other commands or methods', () => {
 })
 
 it('creates an author alphabetically sorted list by default', () => {
-  const orglExec = shell.exec
-  const execStub = sinon.stub()
-  execStub
-    .withArgs('git shortlog HEAD -se')
-    .returns(
-      shell.ShellString(
-        '  24\tAndrew Powlowski <Andrew_Powlowski@yahoo.com>\n' +
-          '  39\tGregorio Heaney <Gregorio.Heaney43@yahoo.com>\n' +
-          '  99\tHallie Paucek <Hallie.Paucek@yahoo.com>\n' +
-          '  70\tMervin Graham <Mervin69@yahoo.com>\n' +
-          '  55\tMiller Reichel <Miller_Reichel@yahoo.com>\n'
-      )
-    )
-  shell.exec = execStub
-
   expect(shell.authors().stdout).toMatchInlineSnapshot(`
-"Andrew Powlowski <Andrew_Powlowski@yahoo.com>
-Gregorio Heaney <Gregorio.Heaney43@yahoo.com>
-Hallie Paucek <Hallie.Paucek@yahoo.com>
-Mervin Graham <Mervin69@yahoo.com>
-Miller Reichel <Miller_Reichel@yahoo.com>"
-`)
-
-  shell.exec = orglExec
+    "Andrew Powlowski <Andrew_Powlowski@yahoo.com>
+    Gregorio Heaney <Gregorio.Heaney43@yahoo.com>
+    Hallie Paucek <Hallie.Paucek@yahoo.com>
+    Mervin Graham <Mervin69@yahoo.com>
+    Miller Reichel <Miller_Reichel@yahoo.com>"
+  `)
 })
 
 it('creates a number of commits per author sorted list when the numbered option is passed', () => {
-  const orglExec = shell.exec
-  const execStub = sinon.stub()
-  execStub
-    .withArgs('git shortlog HEAD -sen')
-    .returns(
-      shell.ShellString(
-        '  99\tHallie Paucek <Hallie.Paucek@yahoo.com>\n' +
-          '  70\tMervin Graham <Mervin69@yahoo.com>\n' +
-          '  55\tMiller Reichel <Miller_Reichel@yahoo.com>\n' +
-          '  39\tGregorio Heaney <Gregorio.Heaney43@yahoo.com>\n' +
-          '  24\tAndrew Powlowski <Andrew_Powlowski@yahoo.com>\n'
-      )
-    )
-  shell.exec = execStub
-
   expect(shell.authors('-n').stdout).toMatchInlineSnapshot(`
-"Hallie Paucek <Hallie.Paucek@yahoo.com>
-Mervin Graham <Mervin69@yahoo.com>
-Miller Reichel <Miller_Reichel@yahoo.com>
-Gregorio Heaney <Gregorio.Heaney43@yahoo.com>
-Andrew Powlowski <Andrew_Powlowski@yahoo.com>"
-`)
-
-  shell.exec = orglExec
+    "Miller Reichel <Miller_Reichel@yahoo.com>
+    Mervin Graham <Mervin69@yahoo.com>
+    Hallie Paucek <Hallie.Paucek@yahoo.com>
+    Gregorio Heaney <Gregorio.Heaney43@yahoo.com>
+    Andrew Powlowski <Andrew_Powlowski@yahoo.com>"
+  `)
 })
