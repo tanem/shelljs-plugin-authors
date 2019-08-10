@@ -1,5 +1,15 @@
 # Changelog
 
+## [v2.0.13](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.13) (2019-08-11)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.12...v2.0.13)
+
+**Merged pull requests:**
+
+- Add .mailmap [#30](https://github.com/tanem/shelljs-plugin-authors/pull/30) ([tanem](https://github.com/tanem))
+- Update dependency tanem-scripts to v2.0.1 [#29](https://github.com/tanem/shelljs-plugin-authors/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency commander to v3 [#27](https://github.com/tanem/shelljs-plugin-authors/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+- Use tanem-scripts [#28](https://github.com/tanem/shelljs-plugin-authors/pull/28) ([tanem](https://github.com/tanem))
+
 ## [v2.0.12](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.12) (2019-07-23)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.11...v2.0.12)
 
