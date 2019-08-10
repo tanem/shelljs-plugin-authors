@@ -8,7 +8,7 @@
   },
   "scripts": {
     "authors": "./bin/shelljs-authors > AUTHORS",
-    "changelog": "github-changelog-generator -f v$npm_package_version > CHANGELOG.md",
+    "changelog": "tanem-scripts changelog -f v$npm_package_version > CHANGELOG.md",
     "example": "node ./example",
     "postversion": "git push && git push --tags && npm publish",
     "release": "npm version -m 'Release v%s'",
@@ -30,11 +30,11 @@
   "homepage": "https://github.com/tanem/shelljs-plugin-authors",
   "repository": "github:tanem/shelljs-plugin-authors",
   "devDependencies": {
-    "@tanem/github-changelog-generator": "1.0.2",
     "codecov": "3.5.0",
     "jest": "24.8.0",
     "prettier": "1.18.2",
-    "shelljs": "0.8.3"
+    "shelljs": "0.8.3",
+    "tanem-scripts": "2.0.0"
   },
   "peerDependencies": {
     "shelljs": "^0.8.3"
