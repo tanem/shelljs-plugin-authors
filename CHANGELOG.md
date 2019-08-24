@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.14](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.14) (2019-08-25)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.13...v2.0.14)
+
+**Merged pull requests:**
+
+- Update dev dependencies [#31](https://github.com/tanem/shelljs-plugin-authors/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.13](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.13) (2019-08-11)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.12...v2.0.13)
 
