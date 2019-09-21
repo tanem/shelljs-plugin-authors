@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.16](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.16) (2019-09-22)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.15...v2.0.16)
+
+**Merged pull requests:**
+
+- Update dependency codecov to v3.6.1 [#34](https://github.com/tanem/shelljs-plugin-authors/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.15](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.15) (2019-09-18)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.14...v2.0.15)
 
