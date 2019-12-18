@@ -1,193 +1,208 @@
 # Changelog
 
-## [v2.0.19](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.19) (2019-10-13)
+## [v2.0.20](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.20) (2019-12-18)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.19...v2.0.20)
+
+#### :house: Internal
+
+- [#45](https://github.com/tanem/shelljs-plugin-authors/pull/45) Update dependency tanem-scripts to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#40](https://github.com/tanem/shelljs-plugin-authors/pull/40) Update dependency commander to v4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#42](https://github.com/tanem/shelljs-plugin-authors/pull/42) Reconfigure tooling ([@tanem](https://github.com/tanem))
+
+## [v2.0.19](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.19) (2019-10-12)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.18...v2.0.19)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.14 [#38](https://github.com/tanem/shelljs-plugin-authors/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+- [#38](https://github.com/tanem/shelljs-plugin-authors/pull/38) Update dependency tanem-scripts to v2.0.14 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.18](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.18) (2019-09-29)
+## [v2.0.18](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.18) (2019-09-28)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.17...v2.0.18)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.11 [#37](https://github.com/tanem/shelljs-plugin-authors/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency commander to ^3.0.2 [#36](https://github.com/tanem/shelljs-plugin-authors/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
+- [#37](https://github.com/tanem/shelljs-plugin-authors/pull/37) Update dependency tanem-scripts to v2.0.11 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#36](https://github.com/tanem/shelljs-plugin-authors/pull/36) Update dependency commander to ^3.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
 
 ## [v2.0.17](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.17) (2019-09-22)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.16...v2.0.17)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.10 [#35](https://github.com/tanem/shelljs-plugin-authors/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
+- [#35](https://github.com/tanem/shelljs-plugin-authors/pull/35) Update dependency tanem-scripts to v2.0.10 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.16](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.16) (2019-09-22)
+## [v2.0.16](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.16) (2019-09-21)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.15...v2.0.16)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency codecov to v3.6.1 [#34](https://github.com/tanem/shelljs-plugin-authors/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- [#34](https://github.com/tanem/shelljs-plugin-authors/pull/34) Update dependency codecov to v3.6.1 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.15](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.15) (2019-09-18)
+## [v2.0.15](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.15) (2019-09-17)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.14...v2.0.15)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.9 [#32](https://github.com/tanem/shelljs-plugin-authors/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency commander to ^3.0.1 [#33](https://github.com/tanem/shelljs-plugin-authors/pull/33) ([renovate[bot]](https://github.com/apps/renovate))
+- [#32](https://github.com/tanem/shelljs-plugin-authors/pull/32) Update dependency tanem-scripts to v2.0.9 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#33](https://github.com/tanem/shelljs-plugin-authors/pull/33) Update dependency commander to ^3.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.14](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.14) (2019-08-25)
+## [v2.0.14](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.14) (2019-08-24)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.13...v2.0.14)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#31](https://github.com/tanem/shelljs-plugin-authors/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+- [#31](https://github.com/tanem/shelljs-plugin-authors/pull/31) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.13](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.13) (2019-08-11)
+## [v2.0.13](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.13) (2019-08-10)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.12...v2.0.13)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Add .mailmap [#30](https://github.com/tanem/shelljs-plugin-authors/pull/30) ([tanem](https://github.com/tanem))
-- Update dependency tanem-scripts to v2.0.1 [#29](https://github.com/tanem/shelljs-plugin-authors/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency commander to v3 [#27](https://github.com/tanem/shelljs-plugin-authors/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
-- Use tanem-scripts [#28](https://github.com/tanem/shelljs-plugin-authors/pull/28) ([tanem](https://github.com/tanem))
+- [#30](https://github.com/tanem/shelljs-plugin-authors/pull/30) Add .mailmap ([@tanem](https://github.com/tanem))
+- [#29](https://github.com/tanem/shelljs-plugin-authors/pull/29) Update dependency tanem-scripts to v2.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#27](https://github.com/tanem/shelljs-plugin-authors/pull/27) Update dependency commander to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#28](https://github.com/tanem/shelljs-plugin-authors/pull/28) Use tanem-scripts ([@tanem](https://github.com/tanem))
 
 ## [v2.0.12](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.12) (2019-07-23)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.11...v2.0.12)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update changelog generation script [#25](https://github.com/tanem/shelljs-plugin-authors/pull/25) ([tanem](https://github.com/tanem))
+- [#25](https://github.com/tanem/shelljs-plugin-authors/pull/25) Update changelog generation script ([@tanem](https://github.com/tanem))
 
 ## [v2.0.11](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.11) (2019-07-16)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.10...v2.0.11)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix audit issues [#24](https://github.com/tanem/shelljs-plugin-authors/pull/24) ([tanem](https://github.com/tanem))
+- [#24](https://github.com/tanem/shelljs-plugin-authors/pull/24) Fix audit issues ([@tanem](https://github.com/tanem))
 
-## [v2.0.10](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.10) (2019-06-30)
+## [v2.0.10](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.10) (2019-06-29)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.9...v2.0.10)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix security issue with exec [#23](https://github.com/tanem/shelljs-plugin-authors/pull/23) ([tanem](https://github.com/tanem))
+- [#23](https://github.com/tanem/shelljs-plugin-authors/pull/23) Fix security issue with exec ([@tanem](https://github.com/tanem))
 
-## [v2.0.9](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.9) (2019-06-08)
+## [v2.0.9](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.9) (2019-06-07)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.8...v2.0.9)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency prettier to v1.18.2 [#22](https://github.com/tanem/shelljs-plugin-authors/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
+- [#22](https://github.com/tanem/shelljs-plugin-authors/pull/22) Update dependency prettier to v1.18.2 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.8](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.8) (2019-06-06)
+## [v2.0.8](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.8) (2019-06-05)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.7...v2.0.8)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Pin dependencies [#21](https://github.com/tanem/shelljs-plugin-authors/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
+- [#21](https://github.com/tanem/shelljs-plugin-authors/pull/21) Pin dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v2.0.7](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.7) (2019-06-06)
+## [v2.0.7](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.7) (2019-06-05)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.6...v2.0.7)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix audit issues [#20](https://github.com/tanem/shelljs-plugin-authors/pull/20) ([tanem](https://github.com/tanem))
-- Add renovate config [#19](https://github.com/tanem/shelljs-plugin-authors/pull/19) ([tanem](https://github.com/tanem))
+- [#20](https://github.com/tanem/shelljs-plugin-authors/pull/20) Fix audit issues ([@tanem](https://github.com/tanem))
+- [#19](https://github.com/tanem/shelljs-plugin-authors/pull/19) Add renovate config ([@tanem](https://github.com/tanem))
 
 ## [v2.0.6](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.6) (2018-09-27)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.5...v2.0.6)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update deps [#18](https://github.com/tanem/shelljs-plugin-authors/pull/18) ([tanem](https://github.com/tanem))
+- [#18](https://github.com/tanem/shelljs-plugin-authors/pull/18) Update deps ([@tanem](https://github.com/tanem))
 
 ## [v2.0.5](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.5) (2018-09-15)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.4...v2.0.5)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update deps [#17](https://github.com/tanem/shelljs-plugin-authors/pull/17) ([tanem](https://github.com/tanem))
+- [#17](https://github.com/tanem/shelljs-plugin-authors/pull/17) Update deps ([@tanem](https://github.com/tanem))
 
-## [v2.0.4](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.4) (2018-09-12)
+## [v2.0.4](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.4) (2018-09-11)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.3...v2.0.4)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update deps [#16](https://github.com/tanem/shelljs-plugin-authors/pull/16) ([tanem](https://github.com/tanem))
+- [#16](https://github.com/tanem/shelljs-plugin-authors/pull/16) Update deps ([@tanem](https://github.com/tanem))
 
-## [v2.0.3](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.3) (2018-09-09)
+## [v2.0.3](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.3) (2018-09-08)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.2...v2.0.3)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update deps [#15](https://github.com/tanem/shelljs-plugin-authors/pull/15) ([tanem](https://github.com/tanem))
+- [#15](https://github.com/tanem/shelljs-plugin-authors/pull/15) Update deps ([@tanem](https://github.com/tanem))
 
 ## [v2.0.2](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.2) (2018-09-02)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.1...v2.0.2)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Correct changelog format [#14](https://github.com/tanem/shelljs-plugin-authors/pull/14) ([tanem](https://github.com/tanem))
+- [#14](https://github.com/tanem/shelljs-plugin-authors/pull/14) Correct changelog format ([@tanem](https://github.com/tanem))
 
 ## [v2.0.1](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.1) (2018-09-02)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.0...v2.0.1)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Add changelog generation [#13](https://github.com/tanem/shelljs-plugin-authors/pull/13) ([tanem](https://github.com/tanem))
+- [#13](https://github.com/tanem/shelljs-plugin-authors/pull/13) Add changelog generation ([@tanem](https://github.com/tanem))
 
-## [v2.0.0](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.0) (2018-08-28)
+## [v2.0.0](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.0) (2018-08-27)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.1.2...v2.0.0)
 
-**Merged pull requests:**
+#### :rocket: Enhancement
 
-- Correct command name [#12](https://github.com/tanem/shelljs-plugin-authors/pull/12) ([tanem](https://github.com/tanem))
+- [#12](https://github.com/tanem/shelljs-plugin-authors/pull/12) Correct command name ([@tanem](https://github.com/tanem))
 
-## [v1.1.2](https://github.com/tanem/shelljs-plugin-authors/tree/v1.1.2) (2018-08-28)
+## [v1.1.2](https://github.com/tanem/shelljs-plugin-authors/tree/v1.1.2) (2018-08-27)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.1.1...v1.1.2)
 
-**Merged pull requests:**
+#### :rocket: Enhancement
 
-- Update keywords [#11](https://github.com/tanem/shelljs-plugin-authors/pull/11) ([tanem](https://github.com/tanem))
+- [#11](https://github.com/tanem/shelljs-plugin-authors/pull/11) Update keywords ([@tanem](https://github.com/tanem))
 
 ## [v1.1.1](https://github.com/tanem/shelljs-plugin-authors/tree/v1.1.1) (2018-08-26)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.1.0...v1.1.1)
 
-**Merged pull requests:**
+#### :memo: Documentation
 
-- Update docs [#10](https://github.com/tanem/shelljs-plugin-authors/pull/10) ([tanem](https://github.com/tanem))
+- [#10](https://github.com/tanem/shelljs-plugin-authors/pull/10) Update docs ([@tanem](https://github.com/tanem))
 
 ## [v1.1.0](https://github.com/tanem/shelljs-plugin-authors/tree/v1.1.0) (2018-08-25)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.0.2...v1.1.0)
 
-**Merged pull requests:**
+#### :rocket: Enhancement
 
-- Add sorting by number of commits per author [#9](https://github.com/tanem/shelljs-plugin-authors/pull/9) ([tanem](https://github.com/tanem))
+- [#9](https://github.com/tanem/shelljs-plugin-authors/pull/9) Add sorting by number of commits per author ([@tanem](https://github.com/tanem))
 
-## [v1.0.2](https://github.com/tanem/shelljs-plugin-authors/tree/v1.0.2) (2018-08-24)
+## [v1.0.2](https://github.com/tanem/shelljs-plugin-authors/tree/v1.0.2) (2018-08-23)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.0.1...v1.0.2)
 
-**Merged pull requests:**
+#### :bug: Bug Fix
 
-- Fix tests [#8](https://github.com/tanem/shelljs-plugin-authors/pull/8) ([tanem](https://github.com/tanem))
+- [#8](https://github.com/tanem/shelljs-plugin-authors/pull/8) Fix tests ([@tanem](https://github.com/tanem))
 
 ## [v1.0.1](https://github.com/tanem/shelljs-plugin-authors/tree/v1.0.1) (2018-08-22)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v1.0.0...v1.0.1)
 
-**Merged pull requests:**
+#### :memo: Documentation
 
-- Add basic docs [#7](https://github.com/tanem/shelljs-plugin-authors/pull/7) ([tanem](https://github.com/tanem))
+- [#7](https://github.com/tanem/shelljs-plugin-authors/pull/7) Add basic docs ([@tanem](https://github.com/tanem))
 
 ## [v1.0.0](https://github.com/tanem/shelljs-plugin-authors/tree/v1.0.0) (2018-08-22)
 
-**Merged pull requests:**
+#### :bug: Bug Fix
 
-- Add release scripts [#6](https://github.com/tanem/shelljs-plugin-authors/pull/6) ([tanem](https://github.com/tanem))
-- Add tests [#5](https://github.com/tanem/shelljs-plugin-authors/pull/5) ([tanem](https://github.com/tanem))
-- Add bin [#4](https://github.com/tanem/shelljs-plugin-authors/pull/4) ([tanem](https://github.com/tanem))
-- Add files array [#3](https://github.com/tanem/shelljs-plugin-authors/pull/3) ([tanem](https://github.com/tanem))
-- Fix pkg main [#2](https://github.com/tanem/shelljs-plugin-authors/pull/2) ([tanem](https://github.com/tanem))
-- Update docs [#1](https://github.com/tanem/shelljs-plugin-authors/pull/1) ([tanem](https://github.com/tanem))
+- [#2](https://github.com/tanem/shelljs-plugin-authors/pull/2) Fix pkg main ([@tanem](https://github.com/tanem))
+
+#### :memo: Documentation
+
+- [#1](https://github.com/tanem/shelljs-plugin-authors/pull/1) Update docs ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#6](https://github.com/tanem/shelljs-plugin-authors/pull/6) Add release scripts ([@tanem](https://github.com/tanem))
+- [#5](https://github.com/tanem/shelljs-plugin-authors/pull/5) Add tests ([@tanem](https://github.com/tanem))
+- [#4](https://github.com/tanem/shelljs-plugin-authors/pull/4) Add bin ([@tanem](https://github.com/tanem))
+- [#3](https://github.com/tanem/shelljs-plugin-authors/pull/3) Add files array ([@tanem](https://github.com/tanem))
