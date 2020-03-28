@@ -7,7 +7,6 @@
     "shelljs-authors": "bin/shelljs-authors"
   },
   "scripts": {
-    "coverage": "codecov",
     "example": "node ./example",
     "release": "tanem-scripts release",
     "test": "jest --coverage"
@@ -27,7 +26,6 @@
   "homepage": "https://github.com/tanem/shelljs-plugin-authors",
   "repository": "github:tanem/shelljs-plugin-authors",
   "devDependencies": {
-    "codecov": "3.6.5",
     "jest": "25.1.0",
     "prettier": "1.19.1",
     "shelljs": "0.8.3",
