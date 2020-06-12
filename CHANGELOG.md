@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.0.35](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.35) (2020-06-12)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.34...v2.0.35)
+
+#### :house: Internal
+
+- [#94](https://github.com/tanem/shelljs-plugin-authors/pull/94) Update dependency tanem-scripts to v5.0.26 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#93](https://github.com/tanem/shelljs-plugin-authors/pull/93) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.34](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.34) (2020-06-01)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.33...v2.0.34)
 
