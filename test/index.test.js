@@ -7,7 +7,7 @@ const commitData = new Map([
   [4, 'Gregorio Heaney <Gregorio.Heaney43@yahoo.com>'],
   [7, 'Hallie Paucek <Hallie.Paucek@yahoo.com>'],
   [11, 'Mervin Graham <Mervin69@yahoo.com>'],
-  [15, 'Miller Reichel <Miller_Reichel@yahoo.com>']
+  [15, 'Miller Reichel <Miller_Reichel@yahoo.com>'],
 ])
 
 beforeAll(() => {
