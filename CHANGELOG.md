@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.0.58](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.58) (2021-01-22)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.57...v2.0.58)
+
+#### :house: Internal
+
+- [#138](https://github.com/tanem/shelljs-plugin-authors/pull/138) Update dependency commander to v7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#137](https://github.com/tanem/shelljs-plugin-authors/pull/137) Update dependency tanem-scripts to v6.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.57](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.57) (2021-01-08)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.56...v2.0.57)
 
