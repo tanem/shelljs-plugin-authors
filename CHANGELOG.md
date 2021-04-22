@@ -1,5 +1,15 @@
 # Changelog
 
+## [v2.0.67](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.67) (2021-04-22)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.66...v2.0.67)
+
+#### :house: Internal
+
+- [#133](https://github.com/tanem/shelljs-plugin-authors/pull/133) Switch from travis to gh actions ([@tanem](https://github.com/tanem))
+- [#153](https://github.com/tanem/shelljs-plugin-authors/pull/153) Update dependency tanem-scripts to v6.0.15 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#152](https://github.com/tanem/shelljs-plugin-authors/pull/152) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#151](https://github.com/tanem/shelljs-plugin-authors/pull/151) Update dependency tanem-scripts to v6.0.14 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.66](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.66) (2021-04-04)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.65...v2.0.66)
 
