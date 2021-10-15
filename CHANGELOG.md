@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.87](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.87) (2021-10-15)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.86...v2.0.87)
+
+#### :house: Internal
+
+- [#193](https://github.com/tanem/shelljs-plugin-authors/pull/193) Update dependency jest to v27.2.5 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.86](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.86) (2021-10-08)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.85...v2.0.86)
 
