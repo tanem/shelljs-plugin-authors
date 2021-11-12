@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.90](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.90) (2021-11-12)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.89...v2.0.90)
+
+#### :house: Internal
+
+- [#196](https://github.com/tanem/shelljs-plugin-authors/pull/196) Housekeeping ([@tanem](https://github.com/tanem))
+
 ## [v2.0.89](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.89) (2021-11-05)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.88...v2.0.89)
 
