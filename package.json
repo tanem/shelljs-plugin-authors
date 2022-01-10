@@ -28,7 +28,7 @@
   "devDependencies": {
     "jest": "27.4.7",
     "prettier": "2.5.1",
-    "shelljs": "0.8.4",
+    "shelljs": "0.8.5",
     "tanem-scripts": "6.0.35"
   },
   "peerDependencies": {
