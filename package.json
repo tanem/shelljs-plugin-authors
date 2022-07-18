@@ -29,7 +29,7 @@
     "jest": "28.1.3",
     "prettier": "2.7.1",
     "shelljs": "0.8.5",
-    "tanem-scripts": "6.0.53"
+    "tanem-scripts": "6.0.54"
   },
   "peerDependencies": {
     "shelljs": "^0.8.3"
