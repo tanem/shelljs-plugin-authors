@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.0.123](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.123) (2022-11-27)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.122...v2.0.123)
+
+#### :house: Internal
+
+- [#268](https://github.com/tanem/shelljs-plugin-authors/pull/268) Update dependency prettier to v2.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#267](https://github.com/tanem/shelljs-plugin-authors/pull/267) Update dependency tanem-scripts to v6.0.64 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.122](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.122) (2022-11-19)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.121...v2.0.122)
 
