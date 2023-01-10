@@ -27,7 +27,7 @@
   "repository": "github:tanem/shelljs-plugin-authors",
   "devDependencies": {
     "jest": "29.3.1",
-    "prettier": "2.8.1",
+    "prettier": "2.8.2",
     "shelljs": "0.8.5",
     "tanem-scripts": "6.0.68"
   },
