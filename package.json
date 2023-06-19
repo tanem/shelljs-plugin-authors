@@ -39,7 +39,7 @@
     "src"
   ],
   "dependencies": {
-    "commander": "^10.0.1",
+    "commander": "^11.0.0",
     "shelljs-exec-proxy": "^0.2.1"
   }
 }
