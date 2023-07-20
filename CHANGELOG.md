@@ -1,5 +1,18 @@
 # Changelog
 
+## [v2.0.148](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.148) (2023-07-20)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.147...v2.0.148)
+
+#### :house: Internal
+
+- [#326](https://github.com/tanem/shelljs-plugin-authors/pull/326) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#325](https://github.com/tanem/shelljs-plugin-authors/pull/325) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#324](https://github.com/tanem/shelljs-plugin-authors/pull/324) Update dependency jest to v29.6.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#323](https://github.com/tanem/shelljs-plugin-authors/pull/323) Update dependency prettier to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#322](https://github.com/tanem/shelljs-plugin-authors/pull/322) Update dependency jest to v29.6.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#321](https://github.com/tanem/shelljs-plugin-authors/pull/321) Update dependency tanem-scripts to v7.0.11 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#320](https://github.com/tanem/shelljs-plugin-authors/pull/320) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.147](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.147) (2023-06-30)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.146...v2.0.147)
 
