@@ -1,5 +1,24 @@
 # Changelog
 
+## [v2.0.162](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.162) (2024-03-27)
+[Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.161...v2.0.162)
+
+#### :house: Internal
+
+- [#396](https://github.com/tanem/shelljs-plugin-authors/pull/396) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#395](https://github.com/tanem/shelljs-plugin-authors/pull/395) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#394](https://github.com/tanem/shelljs-plugin-authors/pull/394) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#393](https://github.com/tanem/shelljs-plugin-authors/pull/393) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#392](https://github.com/tanem/shelljs-plugin-authors/pull/392) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#391](https://github.com/tanem/shelljs-plugin-authors/pull/391) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#390](https://github.com/tanem/shelljs-plugin-authors/pull/390) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#389](https://github.com/tanem/shelljs-plugin-authors/pull/389) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#388](https://github.com/tanem/shelljs-plugin-authors/pull/388) Update dependency prettier to v3.2.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#387](https://github.com/tanem/shelljs-plugin-authors/pull/387) Update dependency tanem-scripts to v7.0.26 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#386](https://github.com/tanem/shelljs-plugin-authors/pull/386) Update dependency commander to v12 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#385](https://github.com/tanem/shelljs-plugin-authors/pull/385) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#384](https://github.com/tanem/shelljs-plugin-authors/pull/384) Update codecov/codecov-action action to v4 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v2.0.161](https://github.com/tanem/shelljs-plugin-authors/tree/v2.0.161) (2024-02-03)
 [Full Changelog](https://github.com/tanem/shelljs-plugin-authors/compare/v2.0.160...v2.0.161)
 
