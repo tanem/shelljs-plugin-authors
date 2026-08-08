@@ -8,7 +8,6 @@
   },
   "scripts": {
     "example": "node ./example",
-    "release": "tanem-scripts release",
     "test": "jest --coverage"
   },
   "keywords": [
@@ -28,8 +27,7 @@
   "devDependencies": {
     "jest": "30.2.0",
     "prettier": "3.8.1",
-    "shelljs": "0.10.0",
-    "tanem-scripts": "8.0.4"
+    "shelljs": "0.10.0"
   },
   "peerDependencies": {
     "shelljs": "^0.8.3 || ^0.9.0 || ^0.10.0"
