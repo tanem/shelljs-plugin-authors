@@ -1,5 +1,7 @@
 # shelljs-plugin-authors
 
+> **Unmaintained.** This project is no longer maintained and the repository is archived. The npm package is deprecated.
+
 [![npm version](https://img.shields.io/npm/v/shelljs-plugin-authors.svg?style=flat-square)](https://www.npmjs.com/package/shelljs-plugin-authors)
 [![build status](https://img.shields.io/github/workflow/status/tanem/shelljs-plugin-authors/CI?style=flat-square)](https://github.com/tanem/shelljs-plugin-authors/actions?query=workflow%3ACI)
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/shelljs-plugin-authors.svg?style=flat-square)](https://codecov.io/gh/tanem/shelljs-plugin-authors)
